@@ -14,10 +14,10 @@ body{
   background: #7a4cae;
   justify-content: center;
 }
-::selection{
+/* ::selection{
   color: #fff;
   background: #7a4cae;
-}
+} */
 .wrapper{
   height: 265px;
   max-width: 410px;
