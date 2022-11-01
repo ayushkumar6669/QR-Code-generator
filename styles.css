@@ -17,6 +17,7 @@ body{
   }
 
   .wrapper{
+    height: 260px;
     background: #ffff;
     max-width: 410px;
     border-radius: 7px;
@@ -58,4 +59,15 @@ body{
     margin-top: 20px;
     font-size: 17px;
     background: #51439d;
+  }
+
+  .wrapper .qr-code{
+    display:flex;
+    opacity: 0;
+    pointer-events: none;
+    padding: 33px 0;
+    border: 1px solid #ccc;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
   }
